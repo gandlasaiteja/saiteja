@@ -1,4 +1,4 @@
-#include <ESP8266WiFi.h> //esp8266 header
+#include <ESP8266WiFi.h> 
 #include <SoftwareSerial.h>
 #include<MFRC522.h>
 #include<SPI.h>
@@ -7,13 +7,13 @@
 #include <Adafruit_MQTT_Client.h>
 
 //connected details
-#define WLAN_SSID "uday"
-#define WLAN_PASS "uday1998"
+#define WLAN_SSID "AAAA"//Repalce AAAA with your WiFi Network
+#define WLAN_PASS "BBBB"//Repalce BBBB with your WiFi PASSWORD
 #define AIO_SERVERPORT 1883
 
 //account details
-#define AIO_USERNAME "Uday_M"
-#define AIO_KEY "df6a8b0f3a7b4df1836c6b413f8f50fa"
+#define AIO_USERNAME "CCCC" //Repalce CCCC with your AdaFruit Username
+#define AIO_KEY "DDDD" //Repalce DDDD with your AdaFruit Key
 #define AIO_SERVER "io.adafruit.com"
 #define c1 16  //d0
 #define c2 5  //d1
