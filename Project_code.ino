@@ -6,11 +6,11 @@
 #include <ThingSpeak.h>  
 
 
-const char* myWriteAPIKey = "B716BUY5ZCL89X7X";//Channel API wirte key
-const char* ssid = "D-Link";  //MY WIFI NETWORK  
-const char* password = "gandlasaiteja"; //MY WIFI PASSWORD
+const char* myWriteAPIKey = "YYYY";//Replace YYYY with your API wirte key
+const char* ssid = "AAAA";  //Replace AAAA with your WIFI NETWORK  
+const char* password = "BBBB"; //Replace BBBB with your WIFI PASSWORD
 
-#define DHTPIN D5  
+#define DHTPIN D5 //You can define any digital pin
 #define DHTTYPE DHT11  
 
 DHT dht(DHTPIN, DHTTYPE);  
@@ -19,7 +19,7 @@ MQ135 gasSensor = MQ135(A0);
 
 WiFiClient client;  
 
-unsigned long myChannelNumber = 646497;  //Channel ID
+unsigned long myChannelNumber = 1111;  //Replace 1111 with your Channel ID
 float temperature, humidity;
 
 void setup()  
